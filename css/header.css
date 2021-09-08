@@ -1,0 +1,28 @@
+
+.header {
+	width: 100%;
+	background-image: url(../img/header/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.header__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	min-height: 650px;
+	color: #fff;
+	padding: 0 0 150px 0;
+}
+
+.header__title {
+	font-size: 75px;
+	letter-spacing: 7px;
+	margin: 0 0 20px 0;
+}
+
+.header__subtitle {
+	font-size: 35px;
+	letter-spacing: 5px;
+}
